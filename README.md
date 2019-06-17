@@ -46,8 +46,8 @@ We can execute that file with node by running `node js/practice.js` in the termi
 
 With node, we are able to export data from one file into another file.  HOORAY!  What an exciting feature.  We often call the file that exports data into another file a module.  We can include many modules into a JS file.  Let's try doing this together.
 
-We have an example of a module in [js/myModule.js](js/myModule.js).
-We are exporting the data from this file into a file named [js/useModule.js](js/useModule.js)].
+We have an example of a module in [js/person.js](js/person.js).
+We are exporting the data from this file into a file named [js/introduction.js](js/introduction.js)].
 These names are not important and we can name the files anything we want.
 Together, let's review the files and we will see how exporting and requiring a file works in JS.
 
@@ -61,6 +61,17 @@ To install the package globally we can do
 ```
 npm install cool-ascii-faces --global
 ```
+And then we can use the command line commands like:
+```
+cool-face
+```
 
-Now let's use our [js/funnyFaces.js](js/funnyFaces.js) file to use the package in our JS file.
+If we want to use it in our own JS file then we need to initiate our folder to use NPM and then install the package to that project.
+```
+npm init
+
+npm install cool-ascii-faces
+```
+
+Now let's look at and run our [js/funnyFaces.js](js/funnyFaces.js) file to use the package in our JS file.
 
