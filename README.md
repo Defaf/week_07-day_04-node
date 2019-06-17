@@ -73,5 +73,21 @@ npm init
 npm install cool-ascii-faces
 ```
 
+Notice the `package.json` file that NPM created for us and how it includes the dependency for cool-ascii-faces.
+
 Now let's look at and run our [js/funnyFaces.js](js/funnyFaces.js) file to use the package in our JS file.
 
+## NPM Scripts
+
+We can add scripts to the `package.json` and NPM will run them for us.  A common script to add is `start` which should start your application.  Let's make the `start` script run `node js/funnyFaces.js` for us so we can use the command `npm start` instead of having to type out `node js/funnyFaces.js`.
+
+## node_modules
+
+You may have noticed that NPM also created a `node_modules` folder which includes all the modules we have included in our application.  BEWARE! It is extremely large and rarely, if ever, should you be opening it.
+
+![node](https://pbs.twimg.com/media/DEIV_1XWsAAlY29.jpg)
+
+## Additional Resources
+
+- https://nodesource.com/blog/the-basics-of-package-json-in-node-js-and-npm/
+- https://www.youtube.com/watch?v=w-7RQ46RgxU&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp
