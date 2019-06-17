@@ -1,5 +1,3 @@
-# week_07-day_04-node
-
 # Node
 
 Node.js runs JavaScript code. This means that millions of frontend developers that already use JavaScript in the browser are able to run the server-side code and frontend-side code using the same programming language without the need to learn a completely different tool.
